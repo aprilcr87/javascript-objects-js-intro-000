@@ -1,6 +1,7 @@
+var MyBloodyValentine = 'My Bloody Valentine';
 var playlist = new Object ({
   Slowdive:'Alison',
-
+  [MyBloodyValentine]:'Sometimes'
 });
 
 function updatePlaylist(playlist, artistName, songTitle){
