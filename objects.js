@@ -17,4 +17,3 @@ function removeFromPlaylist(playlist, artistName){
 }
 removeFromPlaylist(playlist, 'Slowdive');
 playlist;
-
