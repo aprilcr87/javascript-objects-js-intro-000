@@ -1,5 +1,10 @@
-var playlist = {
-  Muse: 'Madness',
-  Phoenix: 'Too Young',
-  Feist: '1,2,3,4'
+var playlist = new Object {
+  Slowdive:'Alison',
+  MyBloodyValentine:'Sometimes'
+};
+
+function updatePlaylist(playlist, artistName, songTitle){
+  return Object.assign({}, playlist, {[artistName]: songTitle})
 }
+
+updatePlaylist(playlist, 'Phil Ochs', 'Here\'s to the State of Mississippi');
